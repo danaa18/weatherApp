@@ -1,0 +1,106 @@
+/* App.css */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* Szép kék-lila gradiens */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.2);
+  /* Átlátszó üveg hatás */
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  width: 70%;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff9f43;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #ffb167;
+}
+
+.temp {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.city {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.desc {
+  font-style: italic;
+  text-transform: capitalize;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.container {
+  width: 100vw;
+  /* Teljes szélesség */
+  height: 100vh;
+  /* Teljes magasság */
+  display: flex;
+  /* Rugalmas doboz modell */
+  justify-content: center;
+  /* Horizontális középre igazítás */
+  align-items: center;
+  /* Vertikális középre igazítás */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  overflow: hidden;
+  /* Ne legyen görgetősáv feleslegesen */
+}
+/* App.css */
+
+.search-box {
+  display: flex;
+  /* Rugalmas elrendezés */
+  align-items: center;
+  /* Függőlegesen középre hozza az elemeket */
+  justify-content: center;
+  /* Vízszintesen középre teszi őket */
+  gap: 15px;
+  /* EZ ADJA A TÉRKÖZÖT az input és a gomb közé */
+  width: 100%;
+  margin-bottom: 20px;
+  /* Egy kis hely az eredmények felett */
+}
